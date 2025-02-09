@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="frontend/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Javier Monroy Muñoz</title>
+</head>
+
+<body class="body">
+    <div class="background"></div>
+
+    <!-- Menú de navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Javier Monroy</div>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
+                <li><a href="frontend/sobremi.html"><i class="fas fa-user"></i>Sobre Mí</a></li>
+                <li><a href="frontend/proyectos.html"><i class="fas fa-project-diagram"></i>Mis Proyectos</a></li>
+                <li><a href="frontend/cv.html"><i class="fas fa-file-alt"></i>Curriculum Vitae</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars open-icon"></i>
+                <i class="fas fa-times close-icon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Texto inicial -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1 class="welcome-text">¡Bienvenido! <span class="wave">👋</span></h1>
+            <h2 class="description">Soy <span class="bold">Javier Monroy Muñoz</span>.</h2>
+            <h3 id="typing-text"></h3>
+        </div>
+        <div class="hero-image">
+            <img src="assets/img/ilustración.png" alt="Imagen de tecnología">
+        </div>
+    </section>
+
+    <!-- Presentación -->
+    <section class="info-section">
+        <div class="info-text">
+            <h2>Me presento</h2>
+            <p>👋🏼 Soy Javier Monroy Muñoz, un profesional con formación en Desarrollo de Aplicaciones
+                Multiplataforma
+                y Sistemas Microinformáticos y Redes, con una especial pasión por el diseño y desarrollo web. Mi
+                trayectoria académica se complementa con un curso especializado en Confección y Publicación de
+                Páginas
+                Web, área que me entusiasma y en la que he decidido enfocar mi carrera.</p>
+            <br>
+            <p>🎯Mi objetivo es seguir creciendo en el campo del desarrollo web y la gestión de sistemas, aportando
+                mis
+                conocimientos y experiencia para crear soluciones tecnológicas eficientes y de alto impacto. Estoy
+                siempre en búsqueda de nuevos desafíos que me permitan continuar aprendiendo y desarrollándome
+                profesionalmente.</p>
+        </div>
+        <div class="info-image">
+            <img src="assets/img/perfil.png" alt="Mi imágen">
+        </div>
+    </section>
+
+    <!-- Contactar conmigo -->
+    <section class="contact-section">
+        <h2>No dudes en contactar conmigo</h2>
+        <div class="social-icons">
+            <a href="https://github.com/JaavieeR16" target="_blank" class="social-icon">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/javier-monroy-mu%C3%B1oz-694910243/" target="_blank"
+                class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a onclick="copiarCorreo()" target="_blank" class="social-icon">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+        <div id="popup" class="popup">
+            <p>Correo copiado al portapapeles</p>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <footer class="footer">
+        <p>&copy; 2025 Javier Monroy Muñoz. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="frontend/scripts.js"></script>
+</body>
+
+</html>
